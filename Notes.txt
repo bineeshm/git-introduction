@@ -1,0 +1,42 @@
+type nul > index.html  \\ to create index.html
+
+code . \\ to start VS Code
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"           \\To set Email and Name 
+
+git status \\ to show th status 
+
+git add index.html   \\add index.html to git
+
+
+$ git add .  \\ To add entire files to git
+
+
+$ git rm --cached index.html  \\ to remove tracking of index.html
+
+$ git rm --cached -r .  \\ To remove tracking of entire files
+
+$ git commit -m "initialized git"      \\To commit current session with the message "initialized git"
+
+To ignore adding files into git
+ 	create a file .gitignore
+	create log.txt
+	add names of files into .gitignore and save  (log.txt)
+	git add .
+	log.txt files not added and shown with git status command.
+$ git branch   \\ Shows current branch
+
+$ git branch  \\ shows all branches including master
+
+$ git branch login  \\To create new branch named 'login'
+
+$ git checkout login \\To switch int branch named 'login'
+<<<<<<< HEAD
+=======
+
+git log  \\Show logs
+>>>>>>> login
+
+
