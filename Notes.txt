@@ -33,10 +33,24 @@ $ git branch  \\ shows all branches including master
 $ git branch login  \\To create new branch named 'login'
 
 $ git checkout login \\To switch int branch named 'login'
-<<<<<<< HEAD
-=======
 
 git log  \\Show logs
->>>>>>> login
+
+Commit through Squash:
+	move to master -git checkout master
+	git merge --squash login
+	git commit -a -m "login merged to master in squash manner"
+
+$ git branch -m signup forget  // To change branch name from 'signup' to 'forget'  currently in  a different branch
+$ git branch -m forget  // To change branch name to 'forget'   cuurently in signup.
+
+$ git branch -D forget  //To delete branch 'forget' currently in  a different branch
+
+$ git checkout -B login     //Rest branch 'login' and switch
+
+
+
+
+
 
 
