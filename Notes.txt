@@ -50,6 +50,9 @@ $ git checkout -B login     //Rest branch 'login' and switch
 
 $ git push -u origin master     //From master branch
 $ git push -u origin login  //From login branch
+$ git push
+
+git clone https://github.com/bineeshm/git-introduction.git
 
 
 
