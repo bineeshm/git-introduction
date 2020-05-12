@@ -48,6 +48,9 @@ $ git branch -D forget  //To delete branch 'forget' currently in  a different br
 
 $ git checkout -B login     //Rest branch 'login' and switch
 
+$ git push -u origin master     //From master branch
+$ git push -u origin login  //From login branch
+
 
 
 
